@@ -1,0 +1,132 @@
+body{
+   background: linear-gradient(93deg, #251414 20.76%, #7e0303 78.80%);
+    color: #ffffff;
+}
+*{
+   font-family: 'Roboto', sans-serif;
+}
+*{
+   font-family: 'Roboto', sans-serif;
+}
+
+body{
+   background: linear-gradient(93deg, #251414 20.76%, #7e0303 78.80%);
+}
+
+nav{
+   display: flex; /* ponerlos uno al lado del otro */
+   justify-content:space-around;/* con esto justificamos el espacio */
+   align-items: center;/* con esto alineamos el codigo */
+}
+
+nav span{
+   color: white;
+   font-weight: bold;/* bold sirve para poner en negrilla */
+   font-size: 20px;
+}
+
+nav ul{
+   display: flex;
+   list-style: none;
+}
+
+nav ul li{
+   margin: 0 30px;/* separar las li */
+}
+
+nav ul li a{
+   text-decoration: none; /* quita el subrayado */
+   color: white;
+   font-size: 30px; /* todo lo que sea texto lleva fond */
+}
+
+.btn{
+   background-color:#7e0303 ;
+   font-size: 20px;
+   color: white;
+   font-family: 'Roboto', sans-serif;
+   border-color: #8f0100;
+}
+
+main{
+   margin-top: 60px;
+   display: flexbox;
+   justify-content:space-around;
+}
+footer{
+   padding-top: 10px;
+   background-color: rgb(75, 75, 75);
+   position: absolute;
+  top: 2;
+  left: 0;
+  right: 0;
+  bottom: 2;
+}
+
+footer div{
+   display: flex;
+   justify-content: space-around;
+}
+
+footer div ul li {
+   list-style: none;
+
+}
+
+
+
+ .dv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ .dv-2{
+   display: flex;
+    padding-left: 180px;
+    margin-top: 50px;
+    padding-bottom: 85px;
+
+ }
+
+ .tx{
+    width: 35%;
+    font-size: 25px;
+    text-align: center;
+ }
+
+ .sp{
+    font-size: 30px;
+ }
+
+ .im{
+  
+    width: 30%;
+    border-radius: 40px;
+ }
+ 
+ .opa{
+   opacity: 0.5;
+ }
+
+#img{
+   width: 32%;
+   border: none;
+   border-radius: 15%;
+   padding-left: 40px;
+   
+}
+
+ #p{
+    font-size: 25px;
+    margin-top: 40px;
+    width: 25%;
+    text-align: center;
+    padding-left: 480px;
+ }
+
+#iz{
+   justify-content: flex-end;
+   padding-right: 80px;
+}
+
